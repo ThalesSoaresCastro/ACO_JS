@@ -1,5 +1,7 @@
 const Grafo = require('./graph.js')
 
+const aco = require('./aco.js')
+
 let g = new Grafo()
 
 let v = ['A','B', 'C', 'D', 'E', 'F']
@@ -30,6 +32,11 @@ console.log('Feromonio: ',g.retornaDados('A','B', 'feromonio'))
 
 
 console.log('Vizinhos de A: ',g.retornaVizinhos('A'))
+
+//ACO
+//pega os vizinhos do vértice B...
+aco.calculaDistanciaInversa(g,'B')
+
 //g.imprimirGrafo()
 
 //g.imp('A','D', 2)
