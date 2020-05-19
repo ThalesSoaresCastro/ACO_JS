@@ -27,16 +27,19 @@ g.adicionaAresta('C', 'F', 8)
 g.atualizaFeromonio('A','D',2)
 
 
-console.log('Peso: ',g.retornaDados('A','B', 'peso'))
-console.log('Feromonio: ',g.retornaDados('A','B', 'feromonio'))
+//console.log('Peso: ',g.retornaDados('A','B', 'peso'))
+//console.log('Feromonio: ',g.retornaDados('A','B', 'feromonio'))
 
 
-console.log('Vizinhos de A: ',g.retornaVizinhos('A'))
+//console.log('Vizinhos de A: ',g.retornaVizinhos('A'))
 
-//ACO
 //pega os vizinhos do vértice B...
-aco.calculaDistanciaInversa(g,'B')
+//aco.calculaDistanciaInversa(g,'B')
 
+//aco.probAresta(g, 'B')
+
+
+aco.prox_vertice(g,'B')
 //g.imprimirGrafo()
 
 //g.imp('A','D', 2)
