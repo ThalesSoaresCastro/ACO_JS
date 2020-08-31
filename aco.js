@@ -1,3 +1,5 @@
+//Thales de Castro Soares 86958
+
 exports.calculaDistanciaInversa = (graph,origem)=>{  
     let dist_inversa = {};
     let viz_graphs = graph.retornaVizinhos(origem);

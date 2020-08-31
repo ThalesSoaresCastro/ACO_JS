@@ -1,10 +1,10 @@
+//Thales de Castro Soares 86958
+
 const Grafo = require('./graph.js');
 const aco = require('./aco.js');
 const readline = require('readline')
 
-
 let g = new Grafo();
-
 
 let list_vertices = ['A','B', 'C', 'D', 'E'];
 
